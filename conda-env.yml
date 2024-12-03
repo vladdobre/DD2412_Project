@@ -1,0 +1,17 @@
+name: sgd
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - cudatoolkit
+  - cudnn
+  - pip:
+      - tensorflow-estimator==2.6.0
+      - keras==2.6.0
+      - tensorflow-probability==0.14.1
+      - tensorflow-federated
+      - tensorflow-datasets
+      - edward2
+      - robustness_metrics @ git+https://github.com/google-research/robustness_metrics.git#egg=robustness_metrics
+      - "git+https://github.com/google/uncertainty-baselines.git@0895e0e#egg=uncertainty_baselines" --no-deps
