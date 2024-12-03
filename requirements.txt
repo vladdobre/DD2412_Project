@@ -1,0 +1,12 @@
+#tensorflow[and-cuda]==2.6.0
+tensorflow-estimator==2.6.0
+
+keras==2.6.0
+# tf-models-nightly==2.7.0.dev20211117
+# tf-nightly==2.7.0.dev20211117
+tensorflow-probability==0.14.1
+tensorflow-federated
+tensorflow-datasets
+edward2
+# uncertainty-baselines==0.0.7 # Should be installed manually, ignoring the dependencies: `pip install uncertainty-baselines==0.0.7 --no-deps`
+robustness_metrics @ git+https://github.com/google-research/robustness_metrics.git#egg=robustness_metrics
