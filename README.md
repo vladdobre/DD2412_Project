@@ -1,3 +1,4 @@
+This repository is heavily based on the official SGN implementation: https://github.com/ErikEnglesson/SGN
 
 ## Installation
 
